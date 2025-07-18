@@ -1,30 +1,26 @@
-# 🚀 Simple Java App
+# 📚 Library Management System (Java)
 
-This is a minimal Java application with a single entry point in `Main.java`.
-
-It can be used as a starting point for small utilities, quick prototypes, or educational examples.
+This is a simple Java-based Library Management System that tracks book borrow and return times, calculates the time difference between two date-time values, and applies late return penalties.
 
 ---
 
 ## 🧩 Features
 
-- ✅ Clean and minimal structure
-- ✅ Single `Main` class
-- ✅ Easy to compile and run
+- ✅ Borrow and return tracking
+- 🕒 Calculate duration between loan and return
+- 💰 Automatically compute late return penalties
+- 🧹 Uses modern `java.time` API for accuracy
 
 ---
 
 ## ▶️ How to Run
 
-### Compile:
 ```bash
 javac Main.java
-```
-
-### Run:
-```bash
 java Main
 ```
+
+> Inputs (borrow/return date-time) can be adjusted inside `Main.java`.
 
 ---
 
@@ -32,15 +28,26 @@ java Main
 
 ```
 .
-├── Main.java
-└── README.md
+├── Main.java       # Core logic and entry point
+└── README.md       # Project info
 ```
 
 ---
 
-## 📣 Notes
+## ⚙️ Technologies
 
-- Written in pure Java (no external libraries required)
-- Compatible with Java 8+
+- Java 8+ (`LocalDate`, `LocalTime`, `Duration`, etc.)
+- No external libraries
+- Pure object-oriented design
 
-Happy coding! 😄
+---
+
+## 💡 Use Cases
+
+- Library systems
+- Video/game rental platforms
+- Time-based fine calculators
+
+---
+
+Built with simplicity and precision. 📖
